@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2eb">
+  <meta name="description" content="There Is Only Room for Heart — a breast cancer awareness campaign built around compassion, education, and action.">
+  <title>There Is Only Room for Heart — Awareness, compassion, action.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+:root{--ivory:#f7f2eb;--paper:#fcfaf6;--burgundy:#552d31;--rose:#a8464d;--blush:#e8d9ce;--ink:#292321;--muted:#756a64;--line:rgba(85,45,49,.19);--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.65}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.announcement{display:flex;justify-content:space-between;padding:9px 5.5%;font-size:9px;letter-spacing:.16em;color:#f8eee8;background:var(--burgundy)}.site-header{height:88px;display:flex;align-items:center;justify-content:space-between;padding:0 5.5%;background:var(--ivory);position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line)}.wordmark{font-family:var(--serif);font-size:14px;line-height:1.12;letter-spacing:-.035em;color:var(--burgundy)}.wordmark em{font-weight:400}.nav{display:flex;align-items:center;gap:35px;font-size:11px}.nav>a:not(.nav-cta){transition:color .2s}.nav>a:hover,.footer-links a:hover{color:var(--rose)}.nav-cta{background:#eac9c7;padding:13px 19px;border-radius:30px;color:var(--burgundy)}.nav-cta span{padding-left:8px}.menu-toggle{display:none;border:0;background:none;font-size:24px;color:var(--burgundy)}
+.hero{min-height:650px;position:relative;display:flex;align-items:center;overflow:hidden;color:white;background:#382b28}.hero-image{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2200&q=85');background-size:cover;background-position:center 48%;transform:scale(1.02)}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,22,20,.79) 0%,rgba(39,27,25,.55) 43%,rgba(42,28,26,.12) 100%),linear-gradient(0deg,rgba(26,19,18,.25),transparent 45%)}.hero-content{position:relative;z-index:1;padding:90px 8%;max-width:850px}.eyebrow{font-size:9px;letter-spacing:.18em;font-weight:600;color:var(--rose);margin:0 0 22px}.eyebrow.light{color:#f0d4d1}.eyebrow span{margin-left:20px;opacity:.8}.hero h1,.involved h2{font:400 clamp(56px,8.4vw,112px)/.99 var(--serif);letter-spacing:-.055em;margin:0 0 28px}.hero h1 em,.involved h2 em{font-weight:400;color:#e8b8b7}.hero-copy{max-width:385px;font:400 17px/1.65 var(--serif);color:#f5ece5}.hero-actions{display:flex;align-items:center;gap:28px;margin-top:35px}.button{display:inline-flex;gap:22px;align-items:center;justify-content:space-between;border:0;border-radius:30px;padding:14px 20px;font-size:11px;letter-spacing:.015em;transition:transform .2s,background .2s;cursor:pointer}.button:hover{transform:translateY(-2px)}.button-light{background:#f0d0ce;color:var(--burgundy)}.button-dark{background:var(--burgundy);color:#fff7f0}.button-outline-light{border:1px solid rgba(255,255,255,.5);color:white;background:transparent}.hero-caption{position:absolute;right:6%;bottom:53px;font:italic 16px/1.4 var(--serif);color:#f2d6d2}.hero-index{position:absolute;bottom:23px;left:5.5%;font-size:8px;letter-spacing:.16em;color:#f1deda}.hero-index span{padding-left:14px}
+.section-pad{padding:105px 8%}.section-label{display:flex;align-items:center;gap:15px;font-size:9px;letter-spacing:.17em;color:var(--rose);margin-bottom:42px}.section-label i{height:1px;background:#c98d8b;width:54px}.label-end{margin-left:auto;color:var(--muted)}.intro{background:var(--paper)}.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:9%;align-items:start}.intro h2,.story h2,.section-heading h2,.resource-left h2,.contact h2{font:400 clamp(42px,5.2vw,68px)/1.08 var(--serif);letter-spacing:-.045em;margin:0;color:var(--burgundy)}h2 em{font-weight:400;color:var(--rose)}.large-copy{font:400 21px/1.55 var(--serif);margin:0 0 22px;color:#3f3330}.intro-text>p:not(.large-copy),.body-copy{color:#746762;font-size:13px;line-height:1.9}.text-link{display:inline-flex;gap:18px;align-items:center;color:var(--rose);font-size:11px;margin-top:18px;border-bottom:1px solid #d4a3a0;padding-bottom:5px}.text-link span{font-size:16px}.light-link{color:#f5d8d4;border-color:rgba(245,216,212,.5)}
+.quote-band{background:#ead4d0;text-align:center;padding:75px 20px 70px;color:var(--burgundy);position:relative}.quote-mark{font:80px/.6 var(--serif);color:#bc797b}.quote-band p{font:400 clamp(30px,4.2vw,51px)/1.2 var(--serif);margin:18px 0 25px;letter-spacing:-.035em}.quote-band p em{color:var(--rose)}.quote-note{font-size:8px;letter-spacing:.2em;color:#8f5b5d}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:9%;align-items:center;background:var(--ivory)}.story-photo{min-height:540px;background-image:url('https://images.unsplash.com/photo-1494972308805-463bc619d34e?auto=format&fit=crop&w=1200&q=85');background-size:cover;background-position:center;position:relative}.story-photo:after{content:"";position:absolute;inset:16px;border:1px solid rgba(255,255,255,.55)}.story-copy .section-label{margin-bottom:55px}.story-copy h2{margin-bottom:25px}.story-copy .body-copy{max-width:420px}.story-copy .button{margin-top:20px}.edit-note{font-size:10px;color:#9a817a;font-style:italic;line-height:1.6;margin-top:14px}
+.events{background:var(--paper)}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:45px}.section-heading h2{font-size:clamp(42px,5vw,65px)}.section-heading .text-link{margin-bottom:7px}.event-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.event-card{min-width:0}.event-art{height:310px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}.art-one{background:linear-gradient(145deg,#e7c2be,#c98c8c)}.art-two{background:linear-gradient(145deg,#d9d1c6,#9b8278)}.art-three{background:linear-gradient(145deg,#e9d9d1,#c9a7a0)}.art-number{position:absolute;top:18px;left:18px;font-size:9px;letter-spacing:.12em;color:rgba(85,45,49,.75)}.art-script{font:italic 42px/1.04 var(--serif);text-align:center;color:#fff8f2;letter-spacing:-.04em;transform:rotate(-7deg)}.art-two .art-script{color:#fffaf5;transform:rotate(5deg)}.art-three .art-script{color:var(--burgundy);font-size:37px}.event-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:19px;font-size:8px;letter-spacing:.09em;color:#8a7972}.status-pill{background:#ead2cf;color:#8e4c50;padding:5px 8px;border-radius:20px}.muted-pill{background:#e5e0d9;color:#70645d}.event-card h3{font:400 25px/1.2 var(--serif);color:var(--burgundy);margin:16px 0 9px}.event-card>p{font-size:12px;color:#796d66;line-height:1.8;min-height:64px}.event-card .text-link{margin-top:10px}.disclaimer{font-size:10px;color:#95857e;margin-top:30px}
+.resources{display:grid;grid-template-columns:.85fr 1.15fr;gap:10%;background:#e9d6d1}.resource-left .section-label{margin-bottom:48px}.resource-left h2{margin-bottom:23px}.resource-left .body-copy{max-width:390px}.resource-left .button{margin-top:18px}.resource-list{padding-top:25px}.resource-list>a{display:grid;grid-template-columns:36px 1fr 20px;gap:18px;padding:24px 0;border-bottom:1px solid rgba(85,45,49,.22);align-items:start}.resource-list>a:first-child{border-top:1px solid rgba(85,45,49,.22)}.resource-list>a>span{font-size:9px;color:var(--rose);padding-top:5px}.resource-list h3{font:400 23px/1.2 var(--serif);margin:0 0 7px;color:var(--burgundy)}.resource-list p{margin:0;font-size:11px;color:#796c66}.resource-list b{font-weight:400;color:var(--rose);font-size:17px}
+.involved{position:relative;background:#4b2b2d;color:#fff7f0;overflow:hidden;min-height:500px;display:flex;align-items:center}.involved-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(49,27,29,.95),rgba(71,39,41,.82),rgba(61,34,35,.65)),url('https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=2000&q=85') center 48%/cover}.involved-content{position:relative;z-index:1;max-width:610px}.involved h2{font-size:clamp(52px,7vw,84px);margin-bottom:22px}.involved-content>p:not(.eyebrow){max-width:430px;color:#eadbd6;font:16px/1.7 var(--serif)}.involved-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.involved-side{position:absolute;right:4%;writing-mode:vertical-rl;letter-spacing:.2em;font-size:8px;color:#e7c7c3}
+.contact{background:var(--paper)}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:12%}.contact h2{margin-bottom:22px}.contact .body-copy{max-width:370px}.contact-form{display:flex;flex-direction:column}.contact-form label{font-size:10px;letter-spacing:.08em;color:var(--burgundy);margin:0 0 7px}.contact-form input,.contact-form select,.contact-form textarea{width:100%;border:0;border-bottom:1px solid #d8c5bd;background:transparent;padding:12px 2px 14px;margin-bottom:22px;outline:none;color:var(--ink);border-radius:0}.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:var(--rose)}.contact-form input::placeholder,.contact-form textarea::placeholder{color:#aa9a92}.form-submit{align-self:flex-start;margin-top:5px}.form-message{font-size:12px;color:var(--rose)}.form-small{font-size:9px;color:#95857e;margin-top:10px}
+.footer{padding:38px 5.5%;display:grid;grid-template-columns:1fr 1.4fr 2fr;gap:25px;align-items:center;background:var(--ivory);border-top:1px solid var(--line)}.footer>p{font:italic 13px/1.6 var(--serif);color:var(--rose);margin:0}.footer-links{display:flex;gap:23px;justify-content:flex-end;font-size:10px;color:#6e605a}.copyright{grid-column:1/-1;border-top:1px solid var(--line);padding-top:16px;font-size:8px;letter-spacing:.14em;color:#998982}
+@media(max-width:800px){.announcement{font-size:7px;padding:8px 5%}.site-header{height:74px;padding:0 5%}.menu-toggle{display:block}.nav{display:none;position:absolute;top:73px;left:0;right:0;background:var(--ivory);padding:25px 6%;flex-direction:column;align-items:stretch;gap:19px;border-bottom:1px solid var(--line)}.nav.open{display:flex}.nav-cta{text-align:center}.hero{min-height:620px}.hero-content{padding:75px 7%}.hero h1{font-size:clamp(54px,12vw,83px)}.hero-caption{right:7%;bottom:54px;font-size:13px}.section-pad{padding:75px 7%}.intro-grid,.story,.resources,.contact-grid{grid-template-columns:1fr;gap:38px}.intro h2,.story h2,.section-heading h2,.resource-left h2,.contact h2{font-size:48px}.story-photo{min-height:390px;order:2}.story-copy{order:1}.story-copy .section-label{margin-bottom:35px}.section-heading{align-items:start;gap:18px;flex-direction:column}.event-grid{grid-template-columns:1fr;gap:40px}.event-art{height:350px}.event-card>p{min-height:0}.resource-list{padding-top:0}.involved{min-height:480px}.involved-side{right:3%}.footer{grid-template-columns:1fr 1fr}.footer-links{grid-column:1/-1;justify-content:flex-start;flex-wrap:wrap}.footer>p{justify-self:end;text-align:right}.copyright{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+</style>
+</head>
+<body>
+  <div class="announcement"><span>AN INDEPENDENT AWARENESS CAMPAIGN</span><span>LEARN · LISTEN · ACT</span></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="There Is Only Room for Heart home">THERE IS ONLY<br>ROOM FOR <em>HEART.</em></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#story">Our story</a><a href="#events">Events</a><a href="#resources">Resources</a><a class="nav-cta" href="#involved">Get involved <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Soft pink flowers in warm natural light"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">AWARENESS · COMPASSION · ACTION <span>— 01</span></p>
+        <h1>There is only<br>room for <em>heart.</em></h1>
+        <p class="hero-copy">For the conversations we postpone, the people we hold close, and the care we all deserve.</p>
+        <div class="hero-actions"><a class="button button-light" href="#story">Discover our story <span>↗</span></a><a class="text-link light-link" href="#events">Explore events <span>→</span></a></div>
+      </div>
+      <div class="hero-caption">A little more awareness.<br>A little more care. Always.</div>
+      <div class="hero-index">BASED IN AZERBAIJAN <span>✳</span></div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-label"><span>01 / THE WHY</span><i></i></div>
+      <div class="intro-grid">
+        <h2>Awareness is where<br><em>care begins.</em></h2>
+        <div class="intro-text"><p class="large-copy">There Is Only Room for Heart is a breast cancer awareness campaign built on a simple belief: information matters, conversations matter, and no one should have to navigate uncertainty alone.</p><p>Through community events, educational resources, and opportunities to get involved, we want to make space for more informed, compassionate conversations.</p><a class="text-link" href="#resources">Explore the resources <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <span class="quote-mark">“</span><p>Make room for the conversation.<br><em>Make room for care.</em></p><span class="quote-note">THE HEART OF OUR CAMPAIGN</span>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="story-photo" role="img" aria-label="Pink flower in soft sunlight"></div>
+      <div class="story-copy">
+        <div class="section-label"><span>02 / OUR STORY</span><i></i></div>
+        <p class="eyebrow">THE HEART BEHIND THE CAMPAIGN</p>
+        <h2>A reason to<br><em>make room.</em></h2>
+        <p class="body-copy">Every meaningful initiative begins with a reason to care. This campaign is a space to turn that care into awareness, action, and community.</p>
+        <p class="body-copy">Our founder's story belongs here: the personal motivation behind starting the campaign, the moments that shaped its mission, and the change we hope to make together.</p>
+        <a class="button button-dark" href="#involved">Be part of the story <span>↗</span></a>
+        <p class="edit-note">Founder note: replace this paragraph with your own story before publishing.</p>
+      </div>
+    </section>
+
+    <section class="events section-pad" id="events">
+      <div class="section-label"><span>03 / GATHER TOGETHER</span><i></i><span class="label-end">THE CALENDAR</span></div>
+      <div class="section-heading"><div><p class="eyebrow">SMALL MOMENTS, SHARED PURPOSE</p><h2>Where we come<br><em>together.</em></h2></div><a class="text-link" href="#involved">Propose an event <span>↗</span></a></div>
+      <div class="event-grid">
+        <article class="event-card event-feature">
+          <div class="event-art art-one"><span class="art-number">01</span><span class="art-script">room for<br>conversation</span></div>
+          <div class="event-meta"><span class="status-pill">UPCOMING</span><span>DATE TO BE ANNOUNCED</span></div>
+          <h3>Awareness in conversation</h3>
+          <p>A community or school session to share reliable information, invite questions, and encourage open conversation.</p>
+          <a href="#involved" class="text-link">Register your interest <span>→</span></a>
+        </article>
+        <article class="event-card">
+          <div class="event-art art-two"><span class="art-number">02</span><span class="art-script">listen.<br>learn.<br>care.</span></div>
+          <div class="event-meta"><span class="status-pill muted-pill">PAST EVENT</span><span>ADD REAL DATE</span></div>
+          <h3>Moments we've shared</h3>
+          <p>Add a real event recap, a few photographs, and what participants took away from the experience.</p>
+          <span class="edit-note">Replace this card with a completed event.</span>
+        </article>
+        <article class="event-card">
+          <div class="event-art art-three"><span class="art-number">03</span><span class="art-script">care is<br>collective</span></div>
+          <div class="event-meta"><span class="status-pill">GET INVOLVED</span><span>OPEN INVITATION</span></div>
+          <h3>Bring the campaign to your community</h3>
+          <p>Interested in hosting a session or collaborating? Let's make a little more room for awareness together.</p>
+          <a href="#involved" class="text-link">Let's collaborate <span>→</span></a>
+        </article>
+      </div>
+      <p class="disclaimer">Event dates and descriptions are placeholders until confirmed. Please check back for updates.</p>
+    </section>
+
+    <section class="resources section-pad" id="resources">
+      <div class="resource-left"><div class="section-label"><span>04 / KNOWLEDGE IS CARE</span><i></i></div><p class="eyebrow">LEARN WITH CARE</p><h2>Knowledge can<br>open a <em>door.</em></h2><p class="body-copy">Find reliable information about breast cancer, signs and symptoms, and conversations to have with a qualified healthcare professional.</p><a class="button button-dark" href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" target="_blank" rel="noopener">Explore trusted information <span>↗</span></a><p class="edit-note">Educational content is not a substitute for professional medical advice.</p></div>
+      <div class="resource-list">
+        <a href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer" target="_blank" rel="noopener"><span>01</span><div><h3>Breast cancer basics</h3><p>Understand the condition from a trusted global health source.</p></div><b>↗</b></a>
+        <a href="https://www.cancer.org/cancer/types/breast-cancer.html" target="_blank" rel="noopener"><span>02</span><div><h3>Signs, symptoms & questions</h3><p>Learn what changes to discuss with a healthcare professional.</p></div><b>↗</b></a>
+        <a href="https://www.cancer.gov/types/breast" target="_blank" rel="noopener"><span>03</span><div><h3>More trusted resources</h3><p>Explore evidence-based information and further reading.</p></div><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="involved section-pad" id="involved">
+      <div class="involved-bg"></div>
+      <div class="involved-content">
+        <p class="eyebrow light">05 / THERE IS ROOM FOR YOU</p>
+        <h2>Care becomes<br><em>action.</em></h2>
+        <p>Bring your time, your ideas, your school, or your community. There are many ways to help a conversation travel further.</p>
+        <div class="involved-actions"><a class="button button-light" href="#contact">Volunteer with us <span>↗</span></a><a class="button button-outline-light" href="#contact">Register for an event <span>↗</span></a></div>
+      </div>
+      <span class="involved-side">LEARN · LISTEN · ACT</span>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-label"><span>06 / SAY HELLO</span><i></i></div>
+      <div class="contact-grid"><div><p class="eyebrow">LET'S MAKE SOMETHING MATTER</p><h2>Make room<br>for <em>you.</em></h2><p class="body-copy">Want to volunteer, attend an event, or bring an awareness session to your community? Send us a note.</p><p class="edit-note">Before publishing: connect this form to Formspree, Netlify Forms, or another form service so submissions reach you.</p></div>
+        <form class="contact-form" id="interest-form">
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Name" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="interest">I'm interested in</label><select id="interest" name="interest" required><option value="" disabled selected>Choose one</option><option>Volunteering</option><option>Registering for an event</option><option>Hosting a school awareness session</option><option>Partnering with the campaign</option><option>Something else</option></select>
+          <label for="message">A note (optional)</label><textarea id="message" name="message" rows="3" placeholder="Tell us a little more…"></textarea>
+          <button class="button button-dark form-submit" type="submit">Send your interest <span>↗</span></button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          <p class="form-small">Please don't include private medical information. This demo form does not yet send submissions.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="wordmark footer-wordmark" href="#home">THERE IS ONLY<br>ROOM FOR <em>HEART.</em></a>
+    <p>Awareness today.<br><em>More room for care tomorrow.</em></p>
+    <div class="footer-links"><a href="#story">Our story</a><a href="#events">Events</a><a href="#resources">Resources</a><a href="#involved">Get involved</a></div>
+    <span class="copyright">© <span id="year"></span> THERE IS ONLY ROOM FOR HEART</span>
+  </footer>
+  <script>
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav');
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+  });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    nav.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Open navigation');
+  }));
+}
+document.getElementById('year').textContent = new Date().getFullYear();
+const form = document.getElementById('interest-form');
+if (form) {
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    document.getElementById('form-message').textContent =
+      'Thank you for your interest! This demo form is not connected yet, so your message has not been sent. Please connect a form service before publishing.';
+  });
+}
+
+</script>
+</body>
+</html>
